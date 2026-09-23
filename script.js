@@ -19,3 +19,13 @@ function getComputerChoice() {
 // Store the computer's choice in a variable
 const computerChoice = getComputerChoice();
 console.log(computerChoice);
+
+// Create a new function named getHumanChoice.
+// Write the code so that getHumanChoice will return one of the valid choices depending on what the user inputs.
+function getHumanChoice(humanInput) {
+  return humanInput.toLowerCase();
+}
+const humanInput = prompt("Enter your choice: rock, paper, or scissors");
+const humanChoice = getHumanChoice(humanInput);
+
+console.log(humanChoice);
