@@ -29,3 +29,7 @@ const humanInput = prompt("Enter your choice: rock, paper, or scissors");
 const humanChoice = getHumanChoice(humanInput);
 
 console.log(humanChoice);
+
+// Variables for storing the scores of both sides
+let humanScore = 0;
+let computerScore = 0;
